@@ -1,8 +1,9 @@
 <main class="main">
   <div class="content">
-    <p>Hey Angular 17</p>
+    <p>Dashboard</p>
+    <button class="logoutBtn" (click)="logout()">logout</button>
   </div>
-  <button (click)="logout()">logout</button>
+  <router-outlet />
 </main>
 
-<router-outlet />
+<p>Home</p>
